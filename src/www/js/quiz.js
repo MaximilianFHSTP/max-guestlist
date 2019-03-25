@@ -9,6 +9,26 @@ socket.on('displayData', (data) => {
     updateGuestlist();
 });
 
+function addImages(){
+    let guestlistImg = document.getElementById('guestlistImg');
+    var guestImg = document.createElement("IMG");
+    guestImg.src = '../assets/icons/Freigestellt.png';
+    guestImg.style.height = '160px';
+    guestlistImg.appendChild(guestImg);
+
+    let adelImg = document.getElementById('adelImg');
+    var adImg = document.createElement("IMG");
+    adImg.src = '../assets/icons/adelicon.png';
+    adImg.style.height = '160px';
+    adelImg.appendChild(adImg);
+
+    let buergertumImg = document.getElementById('buergertumImg');
+    var buetImg = document.createElement("IMG");
+    buetImg.src = '../assets/icons/buergertumicon.png';
+    buetImg.style.height = '160px';
+    buergertumImg.appendChild(guestImg);
+}
+
 function updateGuestlist() {
     let adell = document.getElementById('adel1');
     let adel2 = document.getElementById('adel2');
