@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:8110');
+const socket = io.connect('http://localhost:8100');
 socket.emit('connectClient');
 
 var guestlistUsers;
