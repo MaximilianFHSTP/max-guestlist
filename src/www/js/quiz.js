@@ -1,6 +1,7 @@
 const socket = io.connect('http://localhost:8100');
 socket.emit('connectClient');
 
+addImages();
 var guestlistUsers;
 
 socket.on('displayData', (data) => {
@@ -12,21 +13,21 @@ socket.on('displayData', (data) => {
 function addImages(){
     let guestlistImg = document.getElementById('guestlistImg');
     var guestImg = document.createElement("IMG");
-    guestImg.src = '../assets/icons/Freigestellt.png';
+    guestImg.src = '../assets/img/Freigestellt.png';
     guestImg.style.height = '160px';
     guestlistImg.appendChild(guestImg);
 
     let adelImg = document.getElementById('adelImg');
     var adImg = document.createElement("IMG");
-    adImg.src = '../assets/icons/adelicon.png';
-    adImg.style.height = '160px';
+    adImg.src = '../assets/img/adelicon.png';
+    adImg.style.height = '80px';
     adelImg.appendChild(adImg);
 
     let buergertumImg = document.getElementById('buergertumImg');
     var buetImg = document.createElement("IMG");
-    buetImg.src = '../assets/icons/buergertumicon.png';
-    buetImg.style.height = '160px';
-    buergertumImg.appendChild(guestImg);
+    buetImg.src = '../assets/img/buergertumicon.png';
+    buetImg.style.height = '80px';
+    buergertumImg.appendChild(buetImg);
 }
 
 function updateGuestlist() {
