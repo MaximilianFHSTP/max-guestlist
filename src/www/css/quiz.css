@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+#requestUser {
+    margin: 10px 20px;
+}
+
+.guestlistwrapper{
+    width: 100%; 
+    height: 100%; 
+    overflow:-webkit-paged-x;
+}
+
+.guestlistheader{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.adelheader{
+    display: inline-flex;
+    font-size: 4em;
+    font-family: "VollkornSemiBold";
+    color: #906e1b;
+    margin: 100px 0px 0px 35%;
+}
+
+.buergertumheader{
+    display: inline-flex;
+    font-size: 4em;
+    font-family: "VollkornSemiBold";
+    color: #906e1b;
+    margin: 20px 0px 0px 23%;
+}
+
+.adelheader p,
+.buergertumheader p{
+    margin: 10px;
+}
+
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("../assets/fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "VollkornRegular";
+    src: url("../assets/fonts/Vollkorn-Regular.ttf");
+}
+
+@font-face {
+    font-family: "VollkornBold";
+    src: url("../assets/fonts/Vollkorn-Bold.ttf");
+}
+
+@font-face {
+    font-family: "VollkornSemiBold";
+    src: url("../assets/fonts/Vollkorn-SemiBold.ttf");
+}
+
+.adelleft {
+    float: left;
+    width: 32%;
+    margin-left: 15%
+}
+
+.adelright {
+    float: right;
+    width: 40%;
+    margin-right: 3%;
+}
+
+.buergertumleft {
+    float: left;
+    width: 32%;
+    margin-left: 15%
+}
+
+.buergertumright {
+    float: right;
+    width: 40%;
+    margin-right: 3%;
+}
+
+.adelwrapper{
+    height: 20%;
+}
+
+.buergertumwrapper{
+    height: 50%;
+}
+
+.bottomWrapper{
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+}
+
+.bottomColorWrapper{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #d3c5a4;
+}
+
+.bottomText{
+    text-align: center;
+    font-family: 'OpenSansSemiBold';
+}
+
+.bottomTextBold{
+    text-align: center;
+    font-family: 'OpenSansBold';
+}
+
+.usernames{
+    font-size:2.5em;
+    font-family: "OpenSansSemiBold";
+}
